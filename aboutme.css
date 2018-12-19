@@ -20,12 +20,45 @@ p 	{
 	padding: 0px 20px;
 }
 
+img	{
+	position: relative;
+    padding: 0px 0px 20px 70px;
+}
+a {
+	text-decoration: none;
+}
+/*for unvisited links*/
+a:link	{
+	color: #ffad33;
+}
+
+/*for visited links*/
+a:visited{
+	color: #99671E;
+}
+
+/*for when you go over the link with your mouse*/
+a:hover	{
+	text-decoration: underline;
+	color: #FF8C00;
+}
+
+.video	{
+	position: relative;
+	padding: 0px 0px 0px 100px;	
+}
+
 .nav1 ul	{
 	list-style-type: none;
 }
 
 .nav1 a	{
 	text-decoration: none;
+}
+
+.nav1 a:hover {
+	text-decoration: underline;
+	color: #FF8C00;
 }
 
 .page {
